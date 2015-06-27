@@ -11,11 +11,12 @@ public class GenricDemo2 {
 		Gen_Class<myDto> gClass=new Gen_Class<myDto>(myDtoObj);
 		
 		gClass.showType();
-		
+	
+		//casted
 		myDto m=(myDto) gClass.getT();
 		System.out.println(m.getFname()+"  "+m.getLname()+" "+m.getRollNo());
 		
-		
+	
 	}
 	
 }
