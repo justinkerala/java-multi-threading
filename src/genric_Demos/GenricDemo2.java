@@ -8,7 +8,7 @@ public class GenricDemo2 {
 		
 		 
       //passed to genric class
-		Gen_Class gClass=new Gen_Class<myDto>(myDtoObj);
+		Gen_Class<myDto> gClass=new Gen_Class<myDto>(myDtoObj);
 		
 		gClass.showType();
 		
